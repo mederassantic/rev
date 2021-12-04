@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-size: 16px;
+    font-family: 'sans-serif';
+
+}
+.wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+.left h1{
+    font-size: 2.5rem;
+    color: rgb(54, 53, 50);
+    padding-top: 0.2rem;
+}
+.left h1 span{
+    color: rgb(224, 153, 20);
+}
+nav ul li{
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 1rem;
+}
+nav ul li a{
+    color: rgb(54, 53, 50) ;
+    text-decoration: none;
+    padding: 1rem;
+    font-size: 1.1rem;
+}
+nav ul li a:hover{
+    color: white;
+    background-color: orange;
+    border-radius: 1rem;
+}
+.main-image{
+    max-width:100%;
+    margin-top:2rem ;
+    position: relative;
+    text-align: center;
+    
+}
+.main-image img{
+    max-width:100%;
+    position: relative;
+}
+.banner{
+    font-size: 3rem;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(54, 53, 50) ;
+}
+.banner  span{
+    font-weight: 600;
+    padding-top: 0.1REM;
+}
+.button{
+    padding: 1rem 1.5rem;
+    background-color: orange;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+.button a{
+    color: white;
+    text-decoration: none;
+}
+.button:hover{
+    background-color: rgb(252, 192, 81);
+}
+.steps{
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+.planifier,.organiser,.voyager{
+    width: 20%;
+    text-align: center;
+}
+

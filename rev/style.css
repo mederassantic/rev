@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.main{
+    width: 80%;
+}
+.main table{
+    width:100%;
+    height: 9rem;
+}
+.exercice2{
+    border: 1px black solid;
+    width: 80% ;
+}
+.exercice2 table{
+    width: 40%;
+}
+.exercice2 table tr td{
+    text-align: center;
+    width: 2rem;
+    height: 2rem;
+}
